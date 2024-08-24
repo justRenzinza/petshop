@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PetShop</title>
+    <script src="js/scripts.js" defer></script>
+    <link rel="stylesheet" href="css/harry.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <ul id="nav-bar">
+                <li id="logo"><a href=""><img src="img/dog-cat-fur-happy-illustration-260nw-2313242609.jpg" alt="logo"></a><li>
+                <div id="menu-itens">
+                    <li id="itens"><a href="">FAZER LOGIN</a></li>
+                    <li id="itens"><a href="">CADASTRE-SE</a></li>
+                    <li id="itens"><a href="">NOSSAS CLÍNICAS</a></li>
+                    <li id="itens"><a href="">PROFISSIONAIS</a></li>
+                </div>    
+            </ul>
+        </nav>
+    </header>
+
+    <div class="titulo">
+        <h2>Agende uma consulta para seu pet!</h2>
+    </div>
+
+    <div class="formulario">
+        <form>
+            <label for="pet-name">Nome do Pet:</label>
+            <input type="text" id="pet-name" name="pet-name" required>
+
+            <label for="date">Data:</label>
+            <input type="date" id="date" name="date" required>
+
+            <label for="time">Selecione um horário:</label>
+            <input type="time" id="time" name="time" required>
+
+            <label for="unit">Selecione uma unidade:</label>
+            <input type="text" id="unit" name="unit" required>
+        </form>
+    </div>
+    <div class="container-btn">
+        <button type="submit" class="submit-btn">Agendar</button>
+    </div>
+
+
+
+</body>
+</html>
