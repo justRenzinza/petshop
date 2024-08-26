@@ -11,10 +11,10 @@
     <header>
         <nav>
             <ul id="nav-bar">
-                <li id="logo"><a href=""><img src="imgs/logopetcare.png" alt="logo"></a><li>
+                <li id="logo"><a href="index.html"><img src="imgs/logopetcare.png" alt="logo"></a><li>
                 <div id="menu-itens">
-                    <li id="itens"><a href="">Agendar Consulta</a></li>
-                    <li id="itens"><a href="">Minhas Consultas</a></li>
+                    <li id="itens"><a href="agendamentopet.html">Agendar Consulta</a></li>
+                    <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
                 </div>
             </ul>
         </nav>
@@ -31,10 +31,9 @@
             </div>
             
             <form>
-
                 <div>
                     <input class="nome-pet" type="text" name="nome-pet"  
-                    placeholder="Nome do Animal">
+                    required placeholder="Nome do Animal">
                 </div>
         
                 <div>
@@ -44,7 +43,7 @@
 
                 <div>
                     <input class="tipo-pet" type="text" name="tipo-pet" 
-                    placeholder="Tipo">
+                    placeholder="Espécie">
                 </div>
 
                 <div>
@@ -62,20 +61,18 @@
                     placeholder="Enfermidades">
                 </div>
 
-                <br>
-
-                <label>Carteira de Vacinação do Animal:</label>
                 <div>
-                    
-                    <input class="carteira-pet" type="file" name="carteira-pet">
+                    <input class="vacinas-pet" type="text" name="vacinas-pet"  
+                    placeholder="Vacinas tomadas">
                 </div>
 
                 <div>
                     <input class="submit" type="submit" value="Cadastrar Pet">
                 </div>
             </form>
+            <img class="img-footer" src="imgs/patas_completas.png">
         </div>
-        <img class="img-footer" src="imgs/patas.png">
+        
     </body>
 
     <footer>
