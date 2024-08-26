@@ -1,48 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendamento de Consulta - PetCare</title>
-    <script src="js/scripts.js" defer></script>
-    <link rel="stylesheet" href="estiloagendamento.css">
-</head>
-<body>
+<html>
+    <head>
+        <title>Agendamento - PetCare</title>
+        <meta charset="utf-8">
+
+        <link rel="stylesheet" type="text/css"
+        href="estiloagendamento.css">
+    </head>
 
     <header>
         <nav>
             <ul id="nav-bar">
-                <li id="logo"><a href=""><img src="imgs/logopetcare.png" alt="logo"></a><li>
+                <li id="logo"><a href="index.html"><img src="imgs/logopetcare.png" alt="logo"></a><li>
                 <div id="menu-itens">
-                    <li id="itens"><a href="">Cadastrar Pet</a></li>
-                    <li id="itens"><a href="">Minhas Consultas</a></li>
-                </div>    
+                    <li id="itens"><a href="cadastrarpet.html">Cadastrar Pet</a></li>
+                    <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
+                </div>
             </ul>
         </nav>
     </header>
 
-    <div class="titulo">
-        <h2>Agende uma consulta para seu pet!</h2>
-    </div>
+    <body>
 
-    <div class="formulario">
-        <form>
-            <label for="pet-name">Nome do Pet:</label>
-            <input type="text" id="pet-name" name="pet-name" required>
+        <div id="container">
 
-            <label for="date">Data:</label>
-            <input type="date" id="date" name="date" required>
+            <img class="img-cadastro" src="imgs/logopetcare.png">
 
-            <label for="time">Selecione um horário:</label>
-            <input type="time" id="time" name="time" required>
+            <div class="button-login">
+                <h2>Agende uma consulta para seu Pet</h2>
+           </div>
+            
+            <div class="formulario">
+                <form>
+                    <label for="pet-name">Nome:</label>
+                    <input type="text" id="pet-name" name="pet-name" required placeholder="Escolha um animal cadastrado">
+        
+                    <br>
 
-            <label for="unit">Selecione uma unidade:</label>
-            <input type="text" id="unit" name="unit" required>
-        </form>
-    </div>
-    <div class="container-btn">
-        <button type="submit" class="submit-btn">Realizar Agendamento</button>
-    </div>
+                    <label for="date">Data:</label>
+                    <input type="date" id="date" name="date" required placeholder="Escolha uma data">
+
+                    <br>
+                    
+                    <label for="time">Hora:</label>
+                    <input type="time" id="time" name="time" required placeholder="Selecione um horário disponível">
+
+                    <br>
+
+                    <label for="motivo">Motivo:</label>
+                    <input type="text" id="motivo" name="motivo" required placeholder="Causa do agendamento">
+
+        
+                    <label for="unit">Unid:</label>
+                    <select id="unidade" name="unidade">
+                        <option value="" disabled selected>Escolha uma unidade de atendimento</option>
+                        <option value="PetFeliz">PetFeliz</option>
+                        <option value="Petz">Petz</option>
+                        <option value="Pet Universo">Pet Universo</option>
+                        <option value="Mundo Pet">Mundo Pet</option>
+                        <option value="VetMed">VetMed</option>
+                        <option value="Centro Vet Pets">Centro Vet Pets</option>
+                    </select>
+
+                    <br>
+        
+                    <div>
+                        <input class="submit" type="submit" value="Agendar Consulta">
+                    </div>
+                </form>
+                <img class="img-footer" src="imgs/patas_completas.png">
+            </div>
+        </div>
+        
+    </body>
+
+    <footer>
+        
+    </footer>
+
+</html>
+
+
 
 </body>
 </html>
