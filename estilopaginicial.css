@@ -53,7 +53,7 @@ li img {
     margin-top: 10px;
     padding-top: 30px;
     padding-bottom: 30px;
-    background-color: #f0740e;
+    background-color: rgb(209, 121, 39);
     margin-left: 200px;
     margin-right: 200px;
     border-radius: 40px;
@@ -66,6 +66,25 @@ li img {
     border-radius: 60px;
 }
 
+.fotos-clinica img{
+    margin-left: 20px;
+    margin-right: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    flex-direction: row;
+    max-width: 30%;
+    border-radius: 5px;
+}
+
+.fotos-vet img{
+    margin-left: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    max-width: 10%;
+    border-radius: 100%;
+}
+
 .text-container{
     display: flex;
     flex-direction: column;
@@ -73,25 +92,41 @@ li img {
     max-width: 600px;
 }
 
-.text-container h2{
+.text-container2{
+    display: block;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+.text-container3{
+    display: block;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 400px;
+    text-align: center;
+}
+
+h2{
     margin-bottom: 15px;
-    background-color: #f0740e;
+    background-color: rgb(209, 121, 39);
     color: #fff;
     padding-left: 20px;
-    padding-top: 10px;
+    padding-top: 20px;
     padding-bottom: 10px;
     padding-right: 20px;
     border-radius: 30px;
     text-align: center;
 }
 
-.text-container p{
+p{
     line-height: 1.6;
     padding-left: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;
+    padding-bottom: 40px;
     padding-right: 20px;
-    background-color: #f0740e;
+    background-color: rgb(209, 121, 39);
     color: #fff;
     font-weight: bold;
     border-radius: 30px;
