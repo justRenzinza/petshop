@@ -5,25 +5,27 @@
         <meta charset="utf-8">
 
         <link rel="stylesheet" type="text/css"
-        href="estilocadastro.css">
+        href="css/estilocadastro.css">
+
+        <link rel="icon" type="image/png" href="img/logopetcare-icon.png">
     </head>
 
     <header>
         <nav>
             <ul id="nav-bar">
-                <li id="logo"><a href="index.html"><img src="imgs/logopetcare.png" alt="logo"></a><li>
+                <li id="logo"><a href="index.html"><img src="img/logopetcare.png" alt="logo"></a><li>
                 <div id="menu-itens">
                     <li id="itens"><a href="login.html">Fazer Login</a></li>
                     <li id="itens"><a href="cadastro.html">Cadastre-se</a></li>
                 </div>
             </ul>
         </nav>
-   </header>
+    </header>
 
     <body>
         <div id="container">
 
-            <img class="img-cadastro" src="imgs/logopetcare.png">
+            <img class="img-cadastro" src="img/logopetcare.png">
 
             <div class="button-login">
                 <h2>INFORME SEUS DADOS PESSOAIS</h2>
@@ -52,10 +54,10 @@
                 </div>
 
                 <div>
-                    <input class="submit" type="submit" value="Finalizar Cadastro">
+                    <button type="button" class="submit" onclick="window.location.href = 'login.html' ">Finalizar Cadastro</button>
                 </div>
             </form>
-            <img class="img-footer" src="imgs/patas_completas.png">
+            <img class="img-footer" src="img/patas_completas.png">
         </div>
         
     </body>

@@ -5,13 +5,15 @@
         <meta charset="utf-8">
 
         <link rel="stylesheet" type="text/css"
-        href="estiloagendamento.css">
+        href="css/estiloagendamento.css">
+
+        <link rel="icon" type="image/png" href="img/logopetcare-icon.png">
     </head>
 
     <header>
         <nav>
             <ul id="nav-bar">
-                <li id="logo"><a href="index.html"><img src="imgs/logopetcare.png" alt="logo"></a><li>
+                <li id="logo"><a href="index.html"><img src="img/logopetcare.png" alt="logo"></a><li>
                 <div id="menu-itens">
                     <li id="itens"><a href="cadastrarpet.html">Cadastrar Pet</a></li>
                     <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
@@ -24,11 +26,11 @@
 
         <div id="container">
 
-            <img class="img-cadastro" src="imgs/logopetcare.png">
+            <img class="img-cadastro" src="img/logopetcare.png">
 
             <div class="button-login">
                 <h2>Agende uma consulta para seu Pet</h2>
-           </div>
+            </div>
             
             <div class="formulario">
                 <form>
@@ -65,10 +67,10 @@
                     <br>
         
                     <div>
-                        <input class="submit" type="submit" value="Agendar Consulta">
+                        <button type="button" class="submit" onclick="window.location.href = 'minhasconsultas.html' ">Agendar Consulta</button>
                     </div>
                 </form>
-                <img class="img-footer" src="imgs/patas_completas.png">
+                <img class="img-footer" src="img/patas_completas.png">
             </div>
         </div>
         

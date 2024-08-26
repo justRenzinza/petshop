@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Realizar Cadastro - PetCare</title>
+        <title>Cadastrar Pet - PetCare</title>
         <meta charset="utf-8">
 
         <link rel="stylesheet" type="text/css"
-        href="estilocadpet.css">
+        href="css/estilocadpet.css">
+
+        <link rel="icon" type="image/png" href="img/logopetcare-icon.png">
     </head>
 
     <header>
         <nav>
             <ul id="nav-bar">
-                <li id="logo"><a href="index.html"><img src="imgs/logopetcare.png" alt="logo"></a><li>
+                <li id="logo"><a href="index.html"><img src="img/logopetcare.png" alt="logo"></a><li>
                 <div id="menu-itens">
                     <li id="itens"><a href="agendamentopet.html">Agendar Consulta</a></li>
                     <li id="itens"><a href="minhasconsultas.html">Minhas Consultas</a></li>
@@ -24,7 +26,7 @@
 
         <div id="container">
 
-            <img class="img-cadastro" src="imgs/logopetcare.png">
+            <img class="img-cadastro" src="img/logopetcare.png">
 
             <div class="button-login">
                 <h2>INFORME OS DADOS DO SEU PET PARA FAZER O CADASTRO</h2>
@@ -67,10 +69,10 @@
                 </div>
 
                 <div>
-                    <input class="submit" type="submit" value="Cadastrar Pet">
+                    <button type="button" class="submit" onclick="window.location.href = 'agendamentopet.html' ">Cadastrar Pet</button>
                 </div>
             </form>
-            <img class="img-footer" src="imgs/patas_completas.png">
+            <img class="img-footer" src="img/patas_completas.png">
         </div>
         
     </body>
